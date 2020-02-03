@@ -1,0 +1,30 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/ip/ram/sim/ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/ip/prgrom/sim/prgrom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module prgrom
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/ip/cpuclk/cpuclk_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpuclk_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/ip/cpuclk/cpuclk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpuclk
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/control32_with_IO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/dmemory32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmemory32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/executs32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Executs32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/idecode32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Idecode32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/ifetc32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ifetc32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/ioread.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ioread
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/leds.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module leds
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/memorio.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memorio
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/minisys.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module minisys
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/switchs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module switchs
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sim_1/imports/sim/minisys_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module minisys_sim

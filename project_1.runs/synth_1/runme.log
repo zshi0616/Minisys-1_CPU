@@ -1,0 +1,508 @@
+
+*** Running vivado
+    with args -log minisys.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source minisys.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source minisys.tcl -notrace
+Command: synth_design -top minisys -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 31065 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:00.98 ; elapsed = 00:00:01 . Memory (MB): peak = 1451.055 ; gain = 62.883 ; free physical = 13846 ; free virtual = 22001
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'minisys' [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/minisys.v:3]
+INFO: [Synth 8-6157] synthesizing module 'cpuclk' [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.runs/synth_1/.Xil/Vivado-30941-SecLab/realtime/cpuclk_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'cpuclk' (1#1) [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.runs/synth_1/.Xil/Vivado-30941-SecLab/realtime/cpuclk_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Ifetc32' [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/ifetc32.v:3]
+INFO: [Synth 8-6157] synthesizing module 'prgrom' [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.runs/synth_1/.Xil/Vivado-30941-SecLab/realtime/prgrom_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'prgrom' (2#1) [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.runs/synth_1/.Xil/Vivado-30941-SecLab/realtime/prgrom_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Ifetc32' (3#1) [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/ifetc32.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Idecode32' [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/idecode32.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'Idecode32' (4#1) [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/idecode32.v:4]
+WARNING: [Synth 8-350] instance 'idecode' of module 'Idecode32' requires 14 connections, but only 13 given [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/minisys.v:60]
+INFO: [Synth 8-6157] synthesizing module 'control32' [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/control32_with_IO.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'control32' (5#1) [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/control32_with_IO.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Executs32' [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/executs32.v:4]
+INFO: [Synth 8-226] default block is never used [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/executs32.v:73]
+INFO: [Synth 8-6155] done synthesizing module 'Executs32' (6#1) [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/executs32.v:4]
+INFO: [Synth 8-6157] synthesizing module 'dmemory32' [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/dmemory32.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ram' [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.runs/synth_1/.Xil/Vivado-30941-SecLab/realtime/ram_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ram' (7#1) [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.runs/synth_1/.Xil/Vivado-30941-SecLab/realtime/ram_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dmemory32' (8#1) [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/dmemory32.v:3]
+INFO: [Synth 8-6157] synthesizing module 'memorio' [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/memorio.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'memorio' (9#1) [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/memorio.v:4]
+INFO: [Synth 8-6157] synthesizing module 'ioread' [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/ioread.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ioread' (10#1) [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/ioread.v:4]
+INFO: [Synth 8-6157] synthesizing module 'leds' [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/leds.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'leds' (11#1) [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/leds.v:4]
+WARNING: [Synth 8-689] width (32) of port connection 'ledwdata' does not match port width (16) of module 'leds' [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/minisys.v:154]
+INFO: [Synth 8-6157] synthesizing module 'switchs' [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/switchs.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'switchs' (12#1) [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/switchs.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'minisys' (13#1) [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/minisys.v:3]
+WARNING: [Synth 8-3331] design ioread has unconnected port clk
+WARNING: [Synth 8-3331] design dmemory32 has unconnected port address[31]
+WARNING: [Synth 8-3331] design dmemory32 has unconnected port address[30]
+WARNING: [Synth 8-3331] design dmemory32 has unconnected port address[29]
+WARNING: [Synth 8-3331] design dmemory32 has unconnected port address[28]
+WARNING: [Synth 8-3331] design dmemory32 has unconnected port address[27]
+WARNING: [Synth 8-3331] design dmemory32 has unconnected port address[26]
+WARNING: [Synth 8-3331] design dmemory32 has unconnected port address[25]
+WARNING: [Synth 8-3331] design dmemory32 has unconnected port address[24]
+WARNING: [Synth 8-3331] design dmemory32 has unconnected port address[23]
+WARNING: [Synth 8-3331] design dmemory32 has unconnected port address[22]
+WARNING: [Synth 8-3331] design dmemory32 has unconnected port address[21]
+WARNING: [Synth 8-3331] design dmemory32 has unconnected port address[20]
+WARNING: [Synth 8-3331] design dmemory32 has unconnected port address[19]
+WARNING: [Synth 8-3331] design dmemory32 has unconnected port address[18]
+WARNING: [Synth 8-3331] design dmemory32 has unconnected port address[17]
+WARNING: [Synth 8-3331] design dmemory32 has unconnected port address[16]
+WARNING: [Synth 8-3331] design dmemory32 has unconnected port address[1]
+WARNING: [Synth 8-3331] design dmemory32 has unconnected port address[0]
+WARNING: [Synth 8-3331] design Executs32 has unconnected port Function_opcode[5]
+WARNING: [Synth 8-3331] design Executs32 has unconnected port Function_opcode[4]
+WARNING: [Synth 8-3331] design Executs32 has unconnected port Exe_opcode[5]
+WARNING: [Synth 8-3331] design Executs32 has unconnected port Exe_opcode[4]
+WARNING: [Synth 8-3331] design Executs32 has unconnected port Exe_opcode[3]
+WARNING: [Synth 8-3331] design Executs32 has unconnected port PC_plus_4[1]
+WARNING: [Synth 8-3331] design Executs32 has unconnected port PC_plus_4[0]
+WARNING: [Synth 8-3331] design Idecode32 has unconnected port Instruction[31]
+WARNING: [Synth 8-3331] design Idecode32 has unconnected port Instruction[30]
+WARNING: [Synth 8-3331] design Idecode32 has unconnected port Instruction[29]
+WARNING: [Synth 8-3331] design Idecode32 has unconnected port Instruction[28]
+WARNING: [Synth 8-3331] design Idecode32 has unconnected port Instruction[27]
+WARNING: [Synth 8-3331] design Idecode32 has unconnected port Instruction[26]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1496.805 ; gain = 108.633 ; free physical = 13856 ; free virtual = 22011
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1496.805 ; gain = 108.633 ; free physical = 13857 ; free virtual = 22012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1496.805 ; gain = 108.633 ; free physical = 13857 ; free virtual = 22012
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/ip/cpuclk/cpuclk/cpuclk_in_context.xdc] for cell 'cpuclk'
+Finished Parsing XDC File [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/ip/cpuclk/cpuclk/cpuclk_in_context.xdc] for cell 'cpuclk'
+Parsing XDC File [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/ip/prgrom/prgrom/prgrom_in_context.xdc] for cell 'ifetch/instmem'
+Finished Parsing XDC File [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/ip/prgrom/prgrom/prgrom_in_context.xdc] for cell 'ifetch/instmem'
+Parsing XDC File [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/ip/ram/ram/ram_in_context.xdc] for cell 'memory/ram'
+Finished Parsing XDC File [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/ip/ram/ram/ram_in_context.xdc] for cell 'memory/ram'
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1881.844 ; gain = 0.000 ; free physical = 13557 ; free virtual = 21712
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1883.844 ; gain = 0.000 ; free physical = 13555 ; free virtual = 21710
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1883.844 ; gain = 2.000 ; free physical = 13555 ; free virtual = 21710
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1883.844 ; gain = 495.672 ; free physical = 13661 ; free virtual = 21816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1883.844 ; gain = 495.672 ; free physical = 13661 ; free virtual = 21816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for pclk. (constraint file  /home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/ip/cpuclk/cpuclk/cpuclk_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for pclk. (constraint file  /home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/ip/cpuclk/cpuclk/cpuclk_in_context.xdc, line 4).
+Applied set_property DONT_TOUCH = true for cpuclk. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ifetch/instmem. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for memory/ram. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1883.844 ; gain = 495.672 ; free physical = 13662 ; free virtual = 21818
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "register_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "R_format" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "I_format" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "Lw" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sw" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Jal" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Branch" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "nBranch" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Jmp" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "Sftmd" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/executs32.v:70]
+INFO: [Synth 8-5545] ROM "Zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-327] inferring latch for variable 'ioread_data_reg' [/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.srcs/sources_1/imports/minisys/ioread.v:13]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1883.844 ; gain = 495.672 ; free physical = 13647 ; free virtual = 21803
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     30 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 34    
+	               16 Bit    Registers := 2     
++---Muxes : 
+	   6 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 7     
+	   8 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 52    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Ifetc32 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     30 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
++---Muxes : 
+	   6 Input     32 Bit        Muxes := 1     
+Module Idecode32 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 32    
+Module control32 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 17    
+Module Executs32 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   8 Input     32 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module memorio 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module leds 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module switchs 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "Zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3331] design Executs32 has unconnected port Function_opcode[5]
+WARNING: [Synth 8-3331] design Executs32 has unconnected port Function_opcode[4]
+WARNING: [Synth 8-3331] design Executs32 has unconnected port Exe_opcode[5]
+WARNING: [Synth 8-3331] design Executs32 has unconnected port Exe_opcode[4]
+WARNING: [Synth 8-3331] design Executs32 has unconnected port Exe_opcode[3]
+WARNING: [Synth 8-3331] design Executs32 has unconnected port PC_plus_4[1]
+WARNING: [Synth 8-3331] design Executs32 has unconnected port PC_plus_4[0]
+WARNING: [Synth 8-3331] design Idecode32 has unconnected port Instruction[31]
+WARNING: [Synth 8-3331] design Idecode32 has unconnected port Instruction[30]
+WARNING: [Synth 8-3331] design Idecode32 has unconnected port Instruction[29]
+WARNING: [Synth 8-3331] design Idecode32 has unconnected port Instruction[28]
+WARNING: [Synth 8-3331] design Idecode32 has unconnected port Instruction[27]
+WARNING: [Synth 8-3331] design Idecode32 has unconnected port Instruction[26]
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][0]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][1]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][2]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][3]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][4]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][5]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][6]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][7]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][8]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][9]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][10]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][11]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][12]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][13]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][14]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][15]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][16]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][17]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][18]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][19]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][20]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][21]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][22]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][23]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][24]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][25]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][26]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][27]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][28]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][29]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'idecode/register_reg[0][30]' (FDRE) to 'idecode/register_reg[0][31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (idecode/\register_reg[0][31] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1883.844 ; gain = 495.672 ; free physical = 13613 ; free virtual = 21771
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'cpuclk/clk_out1' to pin 'cpuclk/bbstub_clk_out1/O'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:41 . Memory (MB): peak = 1883.844 ; gain = 495.672 ; free physical = 13493 ; free virtual = 21651
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 1940.844 ; gain = 552.672 ; free physical = 13424 ; free virtual = 21582
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:57 ; elapsed = 00:00:58 . Memory (MB): peak = 1940.844 ; gain = 552.672 ; free physical = 13421 ; free virtual = 21579
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 1940.844 ; gain = 552.672 ; free physical = 13421 ; free virtual = 21579
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 1940.844 ; gain = 552.672 ; free physical = 13421 ; free virtual = 21579
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 1940.844 ; gain = 552.672 ; free physical = 13421 ; free virtual = 21579
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 1940.844 ; gain = 552.672 ; free physical = 13421 ; free virtual = 21579
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 1940.844 ; gain = 552.672 ; free physical = 13421 ; free virtual = 21579
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 1940.844 ; gain = 552.672 ; free physical = 13421 ; free virtual = 21579
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |cpuclk        |         1|
+|2     |prgrom        |         1|
+|3     |ram           |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |cpuclk |     1|
+|2     |prgrom |     1|
+|3     |ram    |     1|
+|4     |CARRY4 |    28|
+|5     |LUT1   |     4|
+|6     |LUT2   |   111|
+|7     |LUT3   |   100|
+|8     |LUT4   |   167|
+|9     |LUT5   |   266|
+|10    |LUT6   |  1032|
+|11    |MUXF7  |   256|
+|12    |MUXF8  |   114|
+|13    |FDCE   |    32|
+|14    |FDRE   |   976|
+|15    |FDSE   |    80|
+|16    |LDC    |    16|
+|17    |IBUF   |    17|
+|18    |OBUF   |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------+----------+------+
+|      |Instance      |Module    |Cells |
++------+--------------+----------+------+
+|1     |top           |          |  3280|
+|2     |  idecode     |Idecode32 |  2197|
+|3     |  ifetch      |Ifetc32   |   968|
+|4     |  led16       |leds      |    16|
+|5     |  memory      |dmemory32 |    33|
+|6     |  multiioread |ioread    |    16|
+|7     |  switch16    |switchs   |    16|
++------+--------------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 1940.844 ; gain = 552.672 ; free physical = 13421 ; free virtual = 21579
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 14 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:55 ; elapsed = 00:00:56 . Memory (MB): peak = 1940.844 ; gain = 165.633 ; free physical = 13479 ; free virtual = 21637
+Synthesis Optimization Complete : Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 1940.852 ; gain = 552.672 ; free physical = 13479 ; free virtual = 21637
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 414 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1972.859 ; gain = 0.000 ; free physical = 13422 ; free virtual = 21580
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 16 instances were transformed.
+  LDC => LDCE: 16 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+115 Infos, 48 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:59 ; elapsed = 00:01:00 . Memory (MB): peak = 1972.859 ; gain = 584.805 ; free physical = 13522 ; free virtual = 21680
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1972.859 ; gain = 0.000 ; free physical = 13522 ; free virtual = 21680
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/stone/studio/minisys1_classfiles/minisys_impl/project_1/project_1.runs/synth_1/minisys.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file minisys_utilization_synth.rpt -pb minisys_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Feb  3 16:11:20 2020...

@@ -1,0 +1,115 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Mon Feb  3 16:12:29 2020
+| Host         : SecLab running 64-bit Ubuntu 16.04.6 LTS
+| Command      : report_methodology -file minisys_methodology_drc_routed.rpt -pb minisys_methodology_drc_routed.pb -rpx minisys_methodology_drc_routed.rpx
+| Design       : minisys
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 16
++-----------+----------+-------------------+------------+
+| Rule      | Severity | Description       | Violations |
++-----------+----------+-------------------+------------+
+| TIMING-20 | Warning  | Non-clocked latch | 16         |
++-----------+----------+-------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch multiioread/ioread_data_reg[0] cannot be properly analyzed as its control pin multiioread/ioread_data_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch multiioread/ioread_data_reg[10] cannot be properly analyzed as its control pin multiioread/ioread_data_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch multiioread/ioread_data_reg[11] cannot be properly analyzed as its control pin multiioread/ioread_data_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch multiioread/ioread_data_reg[12] cannot be properly analyzed as its control pin multiioread/ioread_data_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch multiioread/ioread_data_reg[13] cannot be properly analyzed as its control pin multiioread/ioread_data_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch multiioread/ioread_data_reg[14] cannot be properly analyzed as its control pin multiioread/ioread_data_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch multiioread/ioread_data_reg[15] cannot be properly analyzed as its control pin multiioread/ioread_data_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch multiioread/ioread_data_reg[1] cannot be properly analyzed as its control pin multiioread/ioread_data_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch multiioread/ioread_data_reg[2] cannot be properly analyzed as its control pin multiioread/ioread_data_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch multiioread/ioread_data_reg[3] cannot be properly analyzed as its control pin multiioread/ioread_data_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch multiioread/ioread_data_reg[4] cannot be properly analyzed as its control pin multiioread/ioread_data_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch multiioread/ioread_data_reg[5] cannot be properly analyzed as its control pin multiioread/ioread_data_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch multiioread/ioread_data_reg[6] cannot be properly analyzed as its control pin multiioread/ioread_data_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch multiioread/ioread_data_reg[7] cannot be properly analyzed as its control pin multiioread/ioread_data_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch multiioread/ioread_data_reg[8] cannot be properly analyzed as its control pin multiioread/ioread_data_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch multiioread/ioread_data_reg[9] cannot be properly analyzed as its control pin multiioread/ioread_data_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+

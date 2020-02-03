@@ -1,0 +1,102 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Mon Feb  3 16:12:02 2020
+| Host         : SecLab running 64-bit Ubuntu 16.04.6 LTS
+| Command      : report_control_sets -verbose -file minisys_control_sets_placed.rpt
+| Design       : minisys
+| Device       : xc7z020
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    37 |
+| Unused register locations in slices containing registers |    12 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            2 |
+|    16+ |           35 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               4 |            3 |
+| No           | No                    | Yes                    |              16 |            4 |
+| No           | Yes                   | No                     |              48 |           25 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              16 |            8 |
+| Yes          | Yes                   | No                     |            1024 |          599 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------+---------------------------------+------------------+------------------+----------------+
+|      Clock Signal     |          Enable Signal          | Set/Reset Signal | Slice Load Count | Bel Load Count |
++-----------------------+---------------------------------+------------------+------------------+----------------+
+|  cpuclk/inst/clk_out1 |                                 |                  |                1 |              2 |
+| ~cpuclk/inst/clk_out1 |                                 |                  |                2 |              2 |
+|  ifetch/ram_i_14_0[0] |                                 | idecode/p_0_in   |                5 |             16 |
+|  cpuclk/inst/clk_out1 | ifetch/ram_i_14_1[0]            | idecode/p_0_in   |                8 |             16 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_7_6[0] | idecode/p_0_in   |               20 |             32 |
+| ~cpuclk/inst/clk_out1 | ifetch/jal                      | idecode/p_0_in   |               11 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_8_0[0] | idecode/p_0_in   |               16 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_8_1[0] | idecode/p_0_in   |               20 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_8_2[0] | idecode/p_0_in   |               12 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_8_3[0] | idecode/p_0_in   |               21 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_8_4[0] | idecode/p_0_in   |               19 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_8_5[0] | idecode/p_0_in   |               16 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_8_6[0] | idecode/p_0_in   |               19 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_9_0[0] | idecode/p_0_in   |               22 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_9_1[0] | idecode/p_0_in   |               17 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_9_2[0] | idecode/p_0_in   |               31 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_9_3[0] | idecode/p_0_in   |               16 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_9_4[0] | idecode/p_0_in   |               17 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_9_5[0] | idecode/p_0_in   |               27 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_6_3[0] | idecode/p_0_in   |               20 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/E[0]                     | idecode/p_0_in   |               13 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_5_0[0] | idecode/p_0_in   |               15 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_5_1[0] | idecode/p_0_in   |               18 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_5_2[0] | idecode/p_0_in   |               23 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_6_0[0] | idecode/p_0_in   |               20 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_6_1[0] | idecode/p_0_in   |               22 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_6_2[0] | idecode/p_0_in   |               17 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_7_5[0] | idecode/p_0_in   |               20 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_6_4[0] | idecode/p_0_in   |               19 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_6_5[0] | idecode/p_0_in   |               22 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_6_6[0] | idecode/p_0_in   |               27 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_7_0[0] | idecode/p_0_in   |               17 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_7_1[0] | idecode/p_0_in   |               23 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_7_2[0] | idecode/p_0_in   |               13 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_7_3[0] | idecode/p_0_in   |               14 |             32 |
+|  cpuclk/inst/clk_out1 | ifetch/register[1][31]_i_7_4[0] | idecode/p_0_in   |               12 |             32 |
+| ~cpuclk/inst/clk_out1 |                                 | idecode/p_0_in   |               24 |             48 |
++-----------------------+---------------------------------+------------------+------------------+----------------+
+
+

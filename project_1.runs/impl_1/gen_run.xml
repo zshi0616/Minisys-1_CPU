@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1580717496">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="minisys.drc"/>
+  <File Type="BG-BGN" Name="minisys.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="minisys.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="minisys.ltx"/>
+  <File Type="BITSTR-MMI" Name="minisys.mmi"/>
+  <File Type="BITSTR-BMM" Name="minisys_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="minisys.nky"/>
+  <File Type="BITSTR-RBT" Name="minisys.rbt"/>
+  <File Type="BITSTR-MSK" Name="minisys.msk"/>
+  <File Type="BG-BIN" Name="minisys.bin"/>
+  <File Type="BG-BIT" Name="minisys.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="minisys_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="minisys_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="minisys_bus_skew_postroute_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="minisys.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="minisys_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="minisys_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="minisys_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="minisys_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="minisys_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW" Name="minisys_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="minisys_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="minisys_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="minisys_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="minisys_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="minisys_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="minisys_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="minisys_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="minisys_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="minisys_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="minisys_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="minisys_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="minisys_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="minisys_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="minisys_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="minisys_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="minisys_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="minisys_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="minisys_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="minisys_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="minisys_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="minisys_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="minisys_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="minisys_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="minisys_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="minisys_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="minisys_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="minisys_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="minisys_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="minisys_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="minisys_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="minisys_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="minisys_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="minisys_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="minisys_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="minisys_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="minisys_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="minisys_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="minisys.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="minisys_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="minisys_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="minisys_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="minisys_timing_summary_init.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="minisys_bus_skew_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="minisys_reports.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="minisys_bus_skew_routed.pb"/>
+  <File Type="PA-TCL" Name="minisys.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/minisys/control32_with_IO.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/stone/Desktop/minisys1_classfiles/minisys/control32_with_IO.v"/>
+        <Attr Name="ImportTime" Val="1580542791"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/minisys/dmemory32.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/stone/Desktop/minisys1_classfiles/minisys/dmemory32.v"/>
+        <Attr Name="ImportTime" Val="1580461552"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/minisys/executs32.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/stone/Desktop/minisys1_classfiles/minisys/executs32.v"/>
+        <Attr Name="ImportTime" Val="1580541616"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/minisys/idecode32.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/stone/Desktop/minisys1_classfiles/minisys/idecode32.v"/>
+        <Attr Name="ImportTime" Val="1580454816"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/minisys/ifetc32.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/stone/Desktop/minisys1_classfiles/minisys/ifetc32.v"/>
+        <Attr Name="ImportTime" Val="1580384696"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/minisys/ioread.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/stone/Desktop/minisys1_classfiles/minisys/ioread.v"/>
+        <Attr Name="ImportTime" Val="1421552470"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/minisys/leds.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/stone/Desktop/minisys1_classfiles/minisys/leds.v"/>
+        <Attr Name="ImportTime" Val="1469542388"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/minisys/memorio.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/stone/Desktop/minisys1_classfiles/minisys/memorio.v"/>
+        <Attr Name="ImportTime" Val="1421639772"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/minisys/switchs.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/stone/Desktop/minisys1_classfiles/minisys/switchs.v"/>
+        <Attr Name="ImportTime" Val="1469542356"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/minisys/minisys.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/stone/Desktop/minisys1_classfiles/minisys/minisys.v"/>
+        <Attr Name="ImportTime" Val="1470656332"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/prgmip32.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/dmem32.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="minisys"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="ram"/>
+  <BlockFileSet Type="BlockSrcs" Name="cpuclk"/>
+  <BlockFileSet Type="BlockSrcs" Name="prgrom"/>
+</GenRun>
